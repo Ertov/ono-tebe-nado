@@ -51,7 +51,6 @@
     line-height: 24.3px;
 }
 
-
 main {
     display: flex;
     flex-direction: column;
@@ -81,7 +80,7 @@ main {
     display: flex;
     flex-direction: column;
     position: relative;
-    font-family: 'Raleway',sans-serif, Arial;
+    font-family: "Raleway", Arial, sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 115px;
@@ -135,7 +134,7 @@ main {
 
 .bet-button {
     padding: 11px 32px;
-    font-family: "Raleway",sans-serif, Arial;
+    font-family: "Raleway", Arial, sans-serif;
     font-weight: normal;
     font-size: 22px;
     text-transform: uppercase;
@@ -225,12 +224,11 @@ main {
     padding: 0 24px;
     display: grid;
     grid-template-columns: 358px 1fr;
-    max-height: 595px;
 }
 
 .about__column-text {
     display: grid;
-    grid-template-rows: 0.68fr 1fr 1fr;
+    grid-template-rows: 0.82fr 1fr;
     align-items: center;
 }
 
@@ -251,7 +249,7 @@ main {
 }
 
 .about__title {
-    font-family: "Raleway",sans-serif, Arial;
+    font-family: "Raleway", Arial, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -266,6 +264,8 @@ main {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    display: grid;
+    gap: 24px;
 }
 
 .about__text-one {
@@ -273,17 +273,12 @@ main {
     margin-top: 23px;
 }
 
-.about__text-two {
-    margin-top: 24px;
-}
-
 .footer {
     display: grid;
     grid-template-columns: 241px 149px 240px;
     gap: 185px;
-    margin: 149px 50px 88px 50px;
+    margin: 133px 50px 88px 50px;
 }
-
 
 .footer__menu-list {
     list-style: none;
@@ -296,7 +291,6 @@ main {
 
 .footer__menu-link {
     font-size: 18px;
-    line-height: normal;
     text-underline-position: under;
     line-height: 21.13px;
 }
@@ -315,8 +309,4 @@ main {
 .footer__social-icon {
     width: 48px;
     height: 48px;
-    border: 1px ;
 }
-
-
-
